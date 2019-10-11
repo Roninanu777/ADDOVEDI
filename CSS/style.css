@@ -10,8 +10,8 @@
   font-style: normal;
 }
 
-#addovedi path{
-  animation: anim 5s infinite;
+/* #addovedi path{
+  animation: anim 5s infinite backwards;
 }
 
 @keyframes anim{
@@ -22,6 +22,11 @@
   to{
     stroke-dasharray: 890px;
   }
+} */
+
+#addovedi path:nth-child(1){
+  stroke-dasharray: 200px;
+  
 }
 
 html {
